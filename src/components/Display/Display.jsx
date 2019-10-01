@@ -1,15 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Display.css';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Display = ({ displayValue }) => (
-  <div className="display-container">
-    <p className="display-value">{displayValue}</p>
-  </div>
-);
+const Display = ({ displayValue }) => <div className='display-container' />
 
-Display.propTypes = { displayValue: PropTypes.string.isRequired };
+Display.propTypes = { displayValue: PropTypes.string.isRequired }
 
-Display.defaultProps = { displayValue: 'default' };
-
-export default Display;
+export default Display
