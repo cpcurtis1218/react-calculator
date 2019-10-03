@@ -5,7 +5,7 @@ import './Calculator.css'
 class Calculator extends Component {
   state = {
     // value to be displayed in the Display component
-    displayValue: 0,
+    displayValue: '0',
     // values to be displayed in the number keys component
     numbers: [],
     // values to be displayed in the operator keys
