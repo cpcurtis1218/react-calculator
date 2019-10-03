@@ -1,8 +1,9 @@
 /*
-define variables
+app variables
 */
 
 :root {
+  /* background colors */
   --action-key-color: #545454;
   --action-key-color-hover: #2a2a2a;
   --calculator-background-color: #696969;
@@ -11,6 +12,9 @@ define variables
   --number-key-color-hover: #3f3f3f;
   --submit-key-color: #d18800;
   --submit-key-color-hover: #aa6e00;
+
+  /* font */
+  --main-font: 'Orbitron', sans-serif;
 
   /* font colors */
   --display-text-color: #23e000;
@@ -24,18 +28,6 @@ define variables
   --display-text-weight: 400;
   --key-text-weight: 700;
 
-  /* font */
-  --main-font: 'Orbitron', sans-serif;
-
-  /* font colors */
-  --display-text-color: #23e000;
-
-  /* font sizes */
-  --display-text-size: 4em;
-
-  /* font weights */
-  --display-text-weight: 400;
-
   /* calculator dimensions */
   --calculator-height: 72%;
   --calculator-width: 36%;
@@ -47,14 +39,6 @@ define variables
   /* keypad dimensions */
   --keypad-height: 72%;
   --keypad-width: 96%;
-}
-
-/*
-css reset
-*/
-body, div, p {
-  margin: 0;
-  padding: 0;
 }
 
 /*
@@ -71,4 +55,13 @@ media query for tablet or smaller screen
     --calculator-height: 100%;
     --calculator-width: 100%;
   }
+}
+
+/*
+app CSS reset
+*/
+
+body, div, p {
+  margin: 0;
+  padding: 0;
 }
